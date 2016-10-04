@@ -1,21 +1,29 @@
-BibTex files used by Jérôme. 
+BibTex Files Used by Jérôme Kunegis
+===================================
 
-All files are in UTF-8.
+This is the bilbiography used by Jérôme Kunegis in papers and other
+publications. 
 
 These Bibtex entries do not contain all information possible. They
 are shorted to the style of papers I write.  Unused keys are "commented
 out" by prefixing the key name with "_". 
 
-Name conventions:
 
-NACHNAME, VORNAME von [German]
-van NACHNAME, VORNAME [Dutch]
-VORNAME Van NACHNAME [Belgian]
-VORNAME De NACHNAME [Belgian]
+Name Conventions
+----------------
+
+This is how we write certain types of names: 
+
+LASTNAME, FIRSTNAME von [German]
+van LASTNAME, FIRSTNAME [Dutch]
+FIRSTNAME Van LASTNAME  [Belgian]
+FIRSTNAME De LASTNAME   [Belgian]
 
 
-Abbreviations (following ISO 4):
-Other abbreviations are not used. 
+Abbreviations
+-------------
+
+Abbreviations follow ISO 4.  Other abbreviations are not used.    
 
 * ann. -- annals
 * ass. -- association
@@ -38,5 +46,10 @@ Other abbreviations are not used.
 * trans. -- transactions
 * univ. -- university
 
-Other rules:
-* use `single quotes'
+
+Other Rules
+-----------
+
+* Use `single quotes' when the title of a work contains quotes.
+* All files are in UTF-8.  Sometimes, Bibtex forces us to use Latex
+  encoding, but we avoid that as much as possible.  Use UTF-8.  
