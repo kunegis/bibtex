@@ -1,0 +1,42 @@
+BibTex files used by Jérôme. 
+
+All files are in UTF-8.
+
+These Bibtex entries do not contain all information possible. They
+are shorted to the style of papers I write.  Unused keys are "commented
+out" by prefixing the key name with "_". 
+
+Name conventions:
+
+NACHNAME, VORNAME von [German]
+van NACHNAME, VORNAME [Dutch]
+VORNAME Van NACHNAME [Belgian]
+VORNAME De NACHNAME [Belgian]
+
+
+Abbreviations (following ISO 4):
+Other abbreviations are not used. 
+
+* ann. -- annals
+* ass. -- association
+* commun. -- communications
+* conf. -- conference
+* eur. -- europ*
+* int. -- international
+* j. -- journal 
+* lett. -- letters
+* mag. -- magazine
+* math. -- mathemat*
+* newsl. -- newsletter
+* philos. -- philosoph*
+* phys. -- physic*
+* proc. -- proceedings
+* publ. -- publicat*
+* rev. -- review 
+* ser. -- series
+* soc. -- society
+* trans. -- transactions
+* univ. -- university
+
+Other rules:
+* use `single quotes'
