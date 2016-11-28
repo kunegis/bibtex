@@ -53,3 +53,8 @@ Other Rules
 * Use `single quotes' when the title of a work contains quotes.
 * All files are in UTF-8.  Sometimes, Bibtex forces us to use Latex
   encoding, but we avoid that as much as possible.  Use UTF-8.  
+* Use title case for title, even if many BibTex styles don't do it.  It
+  doesn't hurt for styles that don't need it, and is necessary for
+  styles that need it.  Title case is e.g. "The Story of a Donkey".
+  Words that should always be capitalized in a title are put in braces,
+  e.g., "The Story of a {French} Donkey". 
