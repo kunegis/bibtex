@@ -1,0 +1,893 @@
+This is an old list, which ir partially redundant with 'ref.bib'.
+
+# ''Creating a Web Community Chart for Navigating Related Communities'', Masashi Toyoda and Masaru Kitsuregawa
+# ''Community Search Assistant'', Natalie S. Glance
+#: Bipartite graph between Queries and documents as results, needed for recommending other queries.
+# ''Efficient Identification of Web Communities'', Gary William Flake, Steve Lawrence, C. Lee Giles
+#: Find communities in user graphs using max flow modeling.
+# –
+# ''Trawling the Web for Emerging Cyber-Communities'', Ravi Kumar, Parbhakar Raghavan, Sridhar Rajagopalan, Aandrew Tomkins.
+#:  Similar to [4]
+# ''Smoothing of Recommenders' Ratings for Collaborative Filtering'', Han-Shen Huang, Chun-Nan Hsu
+#: How to scale ratings before processing them.  What I call user normalization.  Also contains a description of the Pearson based prediction.
+# ''Eigentaste: A Constant Time Collaborative Filtering Algorithm'', Ken Goldberg, Theresa Roeder, Dhruv Gupta, Chris Perkins.
+#: The algorithm used in Jester.
+#: Approach to collaborative filtering:  find a subset of users and documents such that every user has rated every document.  Then do a principal component analysis on this data.
+#: Mentions normalizing data to zero mean and unit standard deviation (or variance).
+#: Clusters users using PCA into a 2-dimensional space, followed by besective rectangular clustering.
+#: NMAE:  normalized mean absolute error (MAE divided by maxRating - minRating)
+# ''Nearest-Biclusters Collaborative Filtering'', Panagiotis Symeonidis, Alexandros Nanopoulos, Apostolos Papadopoulos, Yannis Manolopoulos.
+# ''Discovering Shared Interests Among People Using Graph Analysis of Global Electronic Mail Traffic'', Michael F. Schwartz and David C. M. Wood
+#: einfacher Graph aus Benutzer-E-Mails.
+# ''An Algorithmic Framework for Performing Collaborative Filtering'', Herlocker, Constan, Borchers, Riedl
+#: Comparison of different correlation-based approaches
+# ''Evaluating Collaborative Filtering Recommender Systems'', Jonathan L. Herlocker, Joseph A. Konstan, Loren G. Terveen, John T. Riedl.
+#: Wie man collaborative Algorithmen auswertet.  Sehr lang.
+# ''Horting Hatches an Egg:  A New graph-Theoretic Approach to Collaborative Filtering'', Charu C. Aggarwal, Joel L. Wolf, Kun-Lung Wu, Philip S. Yu.
+# ''Evaluating Recommendation Algorithms by Graph Analysis'', Batul J. Mirza, Benjamin J. Keller, Naren Ramakrishnan.
+#: Random graph models, also bipartite.
+# ''The Good, Bad and the Indifferent:  Explorations in Recommender System Health'', Benjamin J. Keller, Sun-mi Kim.
+# ''The Application of New Concepts of Dissimilarities between Nodes of a Graph to Collaborative Filtering'', François Fouss, Alain Pirotte, Marco Saerens.
+# ''Resistance Distance Sum Rules'', Douglas J. Klein.
+#: Mentions that the resistance distance is a metric.  Chemical background.
+# ''Linear Network Reduction Via Generalized Y-Δ Transformation: Theory'', Zhanhai Qin, Chung-Kuan Cheng.
+#: Describes Y-Δ network simplification.
+# ''Theory of Resistor Networks:  The Two-Point Resistance'', F. Y. Wu.
+#: Derives the formula for the resistance distance using eigenvalues/vectors of the laplacian.  The rest of the paper is focussed on finite regular lattices.
+# –
+# ''The Evolution of the Minimum Degree Ordering Algorithm'', Alan George, Joseph W. H. Liu.
+# ''Algorithm 8xx: AMD, an approximate minimum degree ordering algorithm'', Patrick R. Amestoy, Timothy A. Davis, Iain S. Duff.
+#: Describes one specific implementation, and how to use the corresponding library.
+# ''The Computational Complexity of the Minimum Degree Algorithm'', P. Heggernes, S. C. Eisenstat, G. Kumfert, A. Pothen.
+# ''Finding Related Pages in the World Wide Web'', Jeffrey Dean, Monika R. Henziger.
+#: Find related nodes in a directed graph (representing hyperlinked pages)
+# ''Learning Collaborative Information Filters'', Daniel Billsus, Michael J. Pazzani.
+#: Predicting ratings using classification, SVD.
+# ''Empirical Analysis of Predictive Algorithms for Collaborative Filtering'', John S. Breese, David Heckerman, Carl Kadie.
+#: An overview and evaluation.
+# ''Social Information Filtering:  Algorithms for Automating “Word of Mouth”'', Upendra Shardanand, Pattie Maes.
+#: Describes the Ringo system.
+# –
+# ''Graph-Theoretic Techniques for Web Content Mining'', Adam Schenker, Horst Bunke, Mark Last, Abraham Kandel. (Buch)
+#: Graphen werden aus den Features von Dokumenten gebaut, nicht aus Dokumenten selbst.  Interessante Abschnitte über Graph-Clustering, Graphenähnlichk# ''eitsmaße, …
+# ''A Joint Framework for Collaborative and Content Filtering'', Justin Basilico, Thomas Hofmann.
+#: Kombiniert collaborative und content-based filtering.  Ausführliche Version →[30].
+# ''Unifying Collaborative and Content-Based Filtering'', Justin Basilico, Thomas Hofmann.
+#: Longer version of [29].
+# ''Collaborative Filtering via Gaussian Probabilistic Latent Semantic Analysis'', Thomas Hofmann.
+# ''Unsupervised Learning by Probabilistic Latent Semantic Analysis'', Thomas Hofmann.
+# –
+# ''Latent Semantic Models for Colleborative Filtering'', Thomas Hofmann.
+# ''Latent Class Models for Collaborative Filtering'', Thomas Hofmann, Jan Puzicha.
+# ''Information Retrieval Based on Collaborative Filtering with Latent Interest Semantic Map'', Noriaki Kawamae, Katsumi Takahashi.
+#: Probabilistic/latent semantic approach to collaborative filtering.
+# ''Recommendation Algorithm combining the User-Based Classified Regression and the Item-Based Filtering'', Chuan Yu, Jieping Xu, Xiaoyong Du.
+#: Collaborative filtering using standard algorithms.  Mention linear regression to predict ratings using only one user's ratings.
+#: Badly written.
+# ''Agglomerative Clustering of a Search Engine Query Log'', Doug Beeferman, Adam Berger.
+# ''Partitioning of Web Graphs by Community Topology'', Hidehiko Ino, Mineichi Kudo, Atsuyoshi Nakamura.
+#: Finds “communities” of related pages in the undirected web link graph.  References the max flow algorithm.
+# ''Indexing by Latent Semantic Analysis'', Scott Deerwester,   Susan T. Dumais,  George W. Furnas, Thomas K. Landauer, Richard Harshman.
+#: Title says it all.
+# ''Document Retrieval and Clustering:  from Principal Component Analysis to Self-Aggregation Networks'', Chris H.Q. Ding.
+#: Clustering nodes in bipartite graphs, max cut,
+# ''Explaining Collaborative Filtering Recommendations'', Jonathan L. Herlocker, Joseph A. Konstan, John Riedl.
+#: Very high-level without math.
+# ''Clustering Items for Collaborative Filtering'', Mark O’Connor, Jon Herlocker.
+#: Cluster items but not users.
+# ''A Collaborative Filtering Algorithm and Evaluation Metric that Accurately Model the User Experience'', Matthew R. McLaughlin, Jonathan L. Herlocker.
+#: A special evaluation metric for simple collaborative filtering algorithms.
+# –
+# ''Experiments on Graph Clustering Algorithms'', Ulrik Brandes, Marco Gaertler, Dorothea Wagner.
+#: Advanced graph node clustering techniques.
+# ''Graph Clustering and Minimum Cut Trees'', Gary William Flake, Robert E. Tarjan, Kostas Tsioutsiouliklis.
+# ''Strahler based graph clustering using convolution'', David Auber, Maylis Delest, Yves Chiricota.
+# ''Graph Clustering by Flow Simulation'', Stijn Marinus van Dongen. (Dissertation)
+# ''Parameterfreies hierarchisches Graph-Clustering Verfahren zur Interpretation raumbezogener Daten'', Karl-Heinrich Anders. (Dissertation)
+# ''Document Retrieval and Clustering:  from Principal Component Analysis to Self-aggregation Networks'', Chris H. Q. Ding.
+# ''Similarity Measure and Instance Selection for Collaborative Filtering'', Chun Zeng, Chun-Xiao Xing, Li-Zhu Zhou.
+# ''Selecting Relevant Instances for Efficient and Accurate Collaborative Filtering'', Kai Yu, Xiaowei Xu, Martin Ester, Hans-Peter Kriegel.
+# ''Probabilistic Memory-Based Collaborative Filtering'', Kai Yu, Anton Schwaighofer, Volker Tresp, Xiaowei Xu, Hans-Peter Kriegel.
+# ''Collaborative Filtering with Decoupled Models for Preferences and Ratings'', Rong Jin, Luo Si, ChengXiang Zhai, Jamie Callan.
+# ''Utility-Based Neighbourhood Formation for Efficient and Robust Collaborative Filtering'', Neil J. Hurley, Guénolé C.M. Silvestre, Michael P. O’Mahony.
+# ''Graph Mining: Laws, Generators, and Algorithms'', Deepayan Chakrabarti, Christos Flaoutsos.
+#: Probabalistic Graphs.
+# ''Random Graphs and Complex Networks'', Remco van der Hofstad.
+#: Kurs/Vorlesungsskript/Buch.
+# –
+# ''Multiclass Spectral Clustering'', Stella X. Yu, Jianbo Shi.
+#: Behandelt Clustering von Bildpunkten.
+# –
+# ''Understanding Popout through Repulsion'', Stella X. Yu, Jianbo Shi.
+#: About pixel matrices.
+# ''Segmentation with Pairwise Attraction and Repulsion'', Stella X. Yu, Jianbo Shi.
+#: Graph clustering in pixel graphs.
+# ''Learning Segmentation by Random Walks'', Marina Meilă, Jianbo Shi.
+#: In pixel graphs.
+# ''TiVo: Making Show Recommendations Using a Distributed Collaborative Filtering Architecture'', Kamal Ali, Wijnand van Stam.
+#: Collaborative Filtering on a large scale.
+# ''Linear Prediction Models with Graph Regularization for Web-page Categorization'', Alexandrin Popescul, Tong Zhang, Byron Dom.
+# ''A Graph-Theoretic Approach to Extract Storylines from Search Results'', Ravi Kumar, Uma Mahadevan, D. Sivakumar.
+#: Biclustering the document-feature graph of a search results set.
+# ''A Graph-based Recommender System for Digital Library'', Zan Huang, Wingyan Chung, Thian-Huat Ong, Hsinchun Chen.
+#: Hopfield algorithm, multi-layer graph, similarity.
+# ''Mining Clickthrough Data for Collaborative Web Search'', Jian-Tao Sun ,Xuanhui Wang ,Dou Shen ,Hua-Jun Zeng , Zheng Chen.
+#: Clustering.
+# ''Consistent Bipartite Graph Co-Partitioning for Star-Structured High-Order Heterogeneous Data Co-Clustering'', Bin Gao, Tie-Yan Liu, Xin Zheng, Qian-Sheng Cheng, and Wei-Ying Ma.
+#: Spectral clustering, Bipartite Spectral Graph Partitioning, Semi-definite programming.
+# ''Quick k-Median, k-Center, and Facility Location for Sparse Graphs'', Mikkel Thorup.
+#: Mathematical.
+# ''Approximating k-Means-type Clustering via Semidefinite Programming'', Jiming Peng, Yu Wei.
+# ''A Formal Statistical Approach to Collaborative Filtering'', Lyle H. Ungar, Dean P. Foster.
+# ''Analysis of the Axiomatic Foundations of Collaborative Filtering'', David M. Pennock, Eric Horvitz.
+#: What constraints a collaborative rating prediction algorithm should/can fulfill.  Shows that only weighted-mean-based algorithms fulfill all four conditions.
+# ''Implicit Rating and Filtering'', David M. Nichols.
+#: Übersicht zu implicit feedback.
+# ''Scale and Translation Invariant Collaborative Filtering Systems'', Daniel Lemire.
+# ''Collaborative Filtering by Personality Diagnosis: A Hybrid Memory- and Model-Based Approach'', David M. Pennock, Eric Horvitz, Steve Lawrence, C. Lee Giles.
+# ''Scalable Collaborative Filtering Using Cluster-based Smoothing'', Gui-Rong Xue, Chenxi Lin, Qiang Yang, WenSi Xi, Hua-Jun Zeng, Yong Yu, Zheng Chen.
+# ''Solving Cluster Ensemble Problems by Bipartite Graph Partitioning'', Xiaoli Zhang Fern, Carla E. Brodley.
+# –
+# ''Communities from Seed Sets'', Reid Andersen, Kevin J. Lang.
+# ''GroupLens: An Open Architecture for Collaborative Filtering of Netnews'', Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl.
+#: 1994. The founding paper of collaborative filtering.
+# ''Using collaborative filtering to weave an information Tapestry'', David Goldberg, David Nichols, Brian M. Oki and Douglas Terry.
+#: 1992.  One of the first CF papers.  Describes more the rating extraction and interface than the algorithms.
+# ''Evaluating Similarity Measures:  A Large-Scale Study in the Orkut Social Network'', Ellen Spertus, Mehran Sahami, Orkut Buyukkokten.
+#: Mentions some similarity measures.
+# – (was same as [68])
+# ''An Algorithmic Approach to Concept Exploration in a Large Knowledge Network (Automatic Thesaurus Consultation):  Symbolic Branch-and-Bound   Search vs. Connectionist Hopfield Net Activation'', H. Chen and T. Ng.
+# ''Mining the Network Value of Customers'', Matt Richardson, Pedro Domingos.
+#: Markov random fields for social network analysis
+# ''Discriminative Probabilistic Models for Relational Data'', Ben Taskar, Pieter Abbeel, Daphne Koller.
+#: relational markov network in unipartite graphs.
+# ''Markov Random Fields: Theory and Applications'', Rama Chellappa. (1993) (book)
+#: Series of papers about application of Markov random fields in image processing, mostly unblurring and generating missing parts etc.
+# ''Ranking on Data Manifolds'', Dengyong Zhou, Jason Weston, Arthur Gretton, Olivier Bousquet, and Bernhard Schölkopf.
+#: "Ranking" is used in the sense of "similarity to a query".
+# ''Clustering Through Ranking On Manifolds'', Markus Breitenbach, Gregory Z. Grudic.
+# ''Multi-Way Clustering on Relation Graphs'', Arindam Banerjee, Sugato Basu, Srujana Merugu.
+# ''Multicommodity Max-Flow Min-Cut Theorems and Their Use in Designing Approximation Algorithms'', Tom Leighton, Satish Rao.
+# ''Ranking on Graph Data'', Shivani Agarwal.
+#: find a global ranking of graph vertices giving a partial ranking and a graph where edges denote vertex pairs that should have similar ranking.  Use the regularized Laplacian and quadratic programming.
+# ''Probabilistic Reasoning in Intelligent Systems:  Networks of Plausible Inference'', Judea Pearl. (book)
+# ''Markov Random Fields'', Ûrij Anatolevič Rozanov. (book)
+# ''Resistance Distance and Laplacian Spectrum'', Wenjun Xiao, Ivan Gutman.
+#: About the eigenvalues of the Laplacian.
+# ''Resistance-Distance Matrix: A Computational Algorithm and Its Application'', D. Babić, D. J. Klein, I. Lukovits S. Nikolić, N. Trinajstić.
+#: Gives a linear algebraic algorithm for computing the resistance distance matrix.
+# ''Many distances in planar graphs'', Sergio Cabello.
+#: Calculate distances for all pairs of nodes in a subset of all nodes in a graph.
+# ''A Simple Method for Computing Resistance Distance'', Ravindra B. Bapat, Ivan Gutman, and Wenjun Xiao.
+#: alternative formula for the resistance distance
+# ''Resistance Distance'', D. J. Klein, M. Randić. (1993)
+#: Gives an expression for the resistance distance matrix.  Proves that resistance distance is a metric.
+# ''Isolation by Resistance'', Brad H. McRae.
+#: An example of how the resistance distance is used is a distance measure.
+# ''Increasing Distances in Graphs'', Stefan Krause. (dissertation)
+# ''Minimizing Effective Resistance of a Graph'', Arpita Ghosh, Stephen Boyd, Amin Saberi.
+# '' Random-Walk Computation of Similarities between Nodes of a Graph with Application to Collaborative Recommendation'', François Fouss, Alain Pirotte, Jean-Michel Renders, Marco Saerens.
+#: Resistance distance for collaborative filtering.  Gives a fast formula for calculating just one column of the resistance distance matrix.
+# ''Distance in Graphs'', Fred Buckley, Frank Harary. (book)
+#: Only simple distances such as shortest path, etc.
+# –
+# ''Learning Associative Markov Networks'', Ben Taskar, Vassil Chatalbashev, Daphne Koller.
+# ''Marginal Variances for Gaussian Markov Random Fields'', Håvard Rue.
+# ''A Latent Gaussian Markov Random Field Model for Spatio-Temporal Rainfall Disaggregation'', David J. allcroft, Chris A. Glasbey.
+# ''On Conditional and Intrinsic Autoregressions'', Julian Besag, Charles Kooperberg.
+# –
+# ''Why Does Collaborative Filtering Work?—Recommendation Model Validation and Selection by Analyzing Bipartite Random Graphs'', Zan Huang, Daniel D. Zeng.
+#: Random unweighted bipartite graphs.
+# ''Applying Associative Retrieval Techniques to Alleviate the Sparsity Problem in Collaborative filtering'', Zan Huang, Hsinchun Chen, Daniel Zeng.
+#: Hopfield net, spreading activation.
+# ''Methods and Metrics for Cold-Start Recommendations'', Andrew I. Schein, Alexandrin Popescul, Lyle H. Ungar, David M. Pennock.
+#: Content-collaborative hybrid recommender.
+# –
+# ''Eigenspaces of Graphs'', Dragoš Cvetković, Peter Rowlinson and Slobodan Simić.
+#: Eigenspaces of several characteristic graph metrices, especially the adjacency matrix.
+# ''Algebraic Graph Theory'', Chris Godsil, Gordon Royle. (book)
+#: Using linear algebra in graph theory, especially the spectrum of graph matrices (the adjacency matrix and the laplacian).
+# ''Algebraic Graph Theory'', Norman Biggs, 1974.
+# ''Criterion Functions for Document Clustering <span style="font-size:smaller;">Experiments and Analysis</span>, Ying Zhao and George Karypis.
+#: Recommended by MM:  About clustering.
+# ''A Comparison of Document Clustering Techniques'', Michael Steinbach, George Karypis, Vipin Kumar.
+#: Recommended by MM:  About clustering.
+# ''Data Mining, Concepts and Techniques'', Jiawei Han, Micheline Kamber. (book) (DAI-Bibliothek)
+#: »Dragans Buch«.
+#: Not scientific, no algebraic equations, only high-level descriptions, essentially a promotion for a proprietary query language.
+# ''Significance and Recovery of Block Structures in Binary Matrices with Noise'', Xing Sun, Andrew Nobel.
+#: Interesting for bisclustering in the 0/1 case.
+# ''Analyzing Consumer-product Graphs: Empirical Findings and Applications in Recommender Systems'', Zan Huang, Daniel D. Zeng, Hsinchun Chen.
+#: Random bipartite graphs models for real-world datasets.
+# ''SPHier: Scalable Parallel Biclustering using Weighted Bigraph Crossing Minimization'', Waseem Ahmad, Ashfaq Khokhar.
+#: Biclustering.
+# ''Document Language Models, Query Models, and Risk Minimization for Information Retrieval'', John Lafferty, Chengxiang Zhai.
+#: Include the famous (a−α)(I−αC)<sup>−1</sup> formula.
+# ''RecTree:  A Linear Collaborative filtering Algorithm'', Sonny Han Seng Chee. (1992) (master's thesis)
+# ''Graph Theoretical Properties of the Node Determinant of an LCR Network'', Yoji Kajitani. (1971)
+#: LCR Network:  Extensions of resistance network to admittance (conductivity→admittance, resistance→impedance).
+# ''NewsWeeder:  Learning to Filter Netnews'', Ken Lang. (1995)
+# ''All-pairs Min-Cut in sparse Networks'', Srinivasa R. Arikati.
+#: Title says it all.  The running time is O(n² + γ⁴ log γ), where γ is a parameter of the network characterising the sparsity (the smaller the sparser).
+# ''Learning the Structure of Utility Graphs Used in Multi-Issue Negotiotion through Collaborative Filtering'', Valentin Robu, Han La Poutré.
+# ''Item-based Collaborative Filtering Recommendation Algorithms'', Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl.
+#: Item-based prediction.  Mentions linear regression for prediction, and that it is useful for very sparse databases.
+# –
+# ''Semi-supervised Learning using Randmized Mincuts'', Avrim Blum, John Lafferty, Mugizi Robert Rwebangira.
+#: Classification by making a MRF model out of nearest-neighbor.
+# ''Matrix Computations'', Gene H. Golub, Charles F. van Loan, third edition. (book) (MA-Bibliothek) (1996)
+#: Matrix data structures and algorithms.
+# ''Nineteen Dubious Ways to Compute the Exponential of a Matrix, Twenty-Five Years Later'', Cleve Moler, Charles van Loan. (2003)
+#: How to calculate the matrix exponential.
+# –
+# ''Pattern Recognition and Machine Learning'', Christopher M. Bishop. (book) (pdf)
+#: Recommended by CB; used in the IRML Journal Club.
+# ''Semi-Supervised Learning Using Randomized Mincuts'', Avrim Blum, John Lafferty, Mugizi Robert Rwebangira, Rajashekar Reddy.
+# ''A Comparative Study of Recommendation Algorithms in E-Commerce Applications'', Zan Huang, Daniel Zeng, Hsinchun Chen.
+#: (not so well written)
+#: 2.3:  rank reduction (round small eigenvalues in SVD)
+# ''Templates for the Solution of Algebraic Eigenvalue Problems:  a Practical Guide'', Zhaojun Bai, James Demmel, Jack Dongarra, Axel Ruhe, and Henk van der Vorst. (book) (available at http://www.cs.utk.edu/~dongarra/etemplates/)
+#: Algorithms for unstructured sparse eigenvalue problems.
+# ''A Graph Model for E-Commerce Recommender Systems'', Zan Huang, Wingyan Chung, Hsinchun Chen.
+#: Taxonomy of recommendation algorithms.
+# ''Link Prediction Based on Graph Topology: The Predictive Value of the Generalized Clustering Coefficient'', Zan Huang.
+#: Generalizations of the graph clustering coefficient.  In the simplest case:  „The clustering coefficient C […] measures the extent to which being a neighbor is a transitive property.“
+#: The generalized clustering coefficient of this paper takes into account not just triangle, but also cliques of higher order.
+# –
+# ''A New Status Index Derived from Sociometric Analysis'', Leo Katz.
+#: Sociological paper defining the "status index", which is based on what I call the exponential distance.  In a nutshell, they calculate the matrix exponential and sum over all rows to get a vector which they call the "status index".
+#: The paper explores the unipartite asymmetric case.
+# ''Representations for the Generalized Inverse of Sums of Matrices'', Randall E. Cline.
+#: Formulates (A + u^t u)^-1 in function of the pseudoinverse of the singular matrix A.
+# ''Enriched Categories and the Floyd-Warshall Connection'', Vaughan Pratt.
+# ''A Random Walks View of Spectral Segmentation'', Marina Meilă, Jianbo Shi.
+#: Clustering pixels using spectral analysis of the laplacian.  They analyse the second biggest eigenvector.
+# ''Random Matrices in Data Analysis'', Dimitris Achlioptas.
+# ''Modifications of Kleinberg’s HITS Algorithm Using Matrix Exponentiation and Web Log Records'', Joel C. Miller, Gregory Rae, Fred Schaefer.
+#: Moficiation of the HITS algorithm using the matrix exponential.
+# ''Randomized Shortest-Path Problems:  Two Seemingly Unrelated Models'', Marco Saerens, Luh Yen, François Fouss, Youssef Achbany.
+# ''An Experimental Investigation of Graph Kernels on a Collaborative Recommendation Task'', François Fouss, Luh Yen, Alain Pirotte, Marco Saerens.
+#: Review of kernels for distance used in recommender systems.
+# ''The Principal Components Analysis of a Graph, and its Relationships to Spectral Clustering'', Marco Saerens, François Fouss, Luh Yen, Pierre Dupont.
+#: Dimensionally reduced approximation of resistance distance.
+# ''A Novel Way of Computing Similarities Between Nodes of a Graph, with Application to Collaborative Filtering and Subspace Projection of the Graph Nodes'', François Fouss, Alain Pirotte, Jean-Michel Renders, Marco Saerens.
+# ''Kernels and Regularization on Graphs'', Alexander J. Smola, Risi Kondor.
+#: Laplacian graph kernels.  Normalized and regularized graph kernels.  Additional functions on the spectrum to given the exponential, power, cosine, etc.
+# ''Diffusion Kernels on Graphs and Other Discrete Structures'', Risi Imre Kondor, John Lafferty.
+# ''A Survey of Software for Sparse Eigenvalue Problems'', V. Hernández, J. E. Román, A. Tomás, V. Vidal.
+# ''Gaussian Processes for Machine Learning'', C. E. Rasmussen, C. K. I. Williams. (book)
+# ''Link-based Community Detection with the Commute-Time Kernel'', Luh Yen, François Fouss, Christine Decaestecker, Pascal Francq, Marco Saerens.
+#: Use of the resistance distance kernel for clustering.
+# ''Cumulated Gain-Based Evaluation of IR Techniques'', Kalervo Jarvelin, Jaana Kekalainen.
+#: NDCG.
+# ''Modeling Relationships at Multiple Scales to Improve Accuracy of Large Recommender Systems'', Robert M. Bell, Yehuda Korenm, Chris Volinsky. (2007)
+#: Evaluation of collaborative filtering on Netflix corpus.
+# ''Time Weight Collaborative Filtering'', Yi Ding, Xue Li.
+#: Take into account the rating date/time.
+# –
+# ''Influence in Ratings-Based Recommender Systems: An Algorithm-Independent Approach'', Al Mamunur Rashid, George Karypis, John Riedl.
+#: NUPD:  a measure of the influence of any user.  Can be applied to any CF algorithm.
+# ''Incremental Singular Value Decomposition Algorithms for Highly Scalable Recommender Systems'', Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl.
+#: SVD + folding-in.
+# ''Application of Dimensionality Reduction in Recommender System – A Case Study'', Badrul M. Sarwar, George Karypis, Joseph A. Konstan, John T. Riedl.
+#: Rank reduction, performance in function of the reduced dimension k.
+# ''Estimation of Rank Deficient Matrices from Partial Observations:  Two-Step Iterative Algorithms'', Rui F. C. Guerreiro, Pedro M. Q. Aguiar.
+#: Solve min |(A_k - A) ∘ M| where |A| is the Frobenius norm, A_k is a rank-k matrix, ∘ is the Hadamard product, and M is a 0/1 "mask" matrix.
+# ''Factorization as a Rank 1 Problem'', Pedro M. Q. Aguiar, José M. F. Moura.
+# ''Linear Fitting with Missing Data for Structure-from-Motion'', David W. Jacobs.
+#: A non-iterative non-optimal solution; can be used as basis for other methods.
+# ''Shape and Motion from Image Streams under Orthography:  a Factorization Method'', Carlo Tomasi, Takeo Kanade.
+#: SFM using SVD on the whole matrix.
+# ''Principal Component Analysis With Missing Data and Outliers'', Haifeng Chen.
+#: EM for PCA.  EM with missing data.
+# ''Principal Component Analysis with Missing Data and Its Application to Polyhedral Object Modeling'', Heung-Yeung Shum, Katsushi Ikeuchi, Raj Reddy.
+# ''Succinct Matrix Approximation and Efficient k-NN Classification'', Rong Liu, Yong Shi.
+#: F-norm versus L₂-norm of a matrix.
+# ''Robust Factorization'', Henrik Aanæs, Rune Fisker, Kalle Åström, Jens Michael Carstensen.
+#: Weighted least squares for structure from motion.
+# ''Computation of Principal Components when Data are Missing'', T. Wiberg, Umea.
+#: The "masked" low-rank approximation problem, solved using the Gauss-Newton algorithm.
+# ''Methods for large scale SVD with missing values'', Miklós Kurucz, András A. Benczúr, Károly Csalogány.
+#: Sparse EM with missing values.
+# ''PowerFactorization : 3D reconstruction with missing or uncertain data'', Richard Hartley and Frederik Schaffalitzky.
+# –
+# ''Using Singular Value Decomposition Approximation for Collaborative Filtering'', Sheng Zhang, Weihong Wang, James Ford, Fillia Makedon.
+# ''Random Matrices in Data Analysis'', Dimitris Achlioptas.
+# ''Collaborative Ordinal Regression'', Shipeng Yu, Kai Yu, Volker Tresp, Hans-Peter Kriegel.
+# ''Nonlinear Component Analysis as a Kernel Eigenvalue Problem'', Bernhard Schölkopf, Alexander Smola, and Klaus-Robert Müller.
+# ''A Robust Graph Partition Method from the Path-Weighted Adjacency Matrix'', Huaijun Qiu, Edwin R. Hancock.
+#: heat kernel, graph kernel.
+# ''Coverings, Heat Kernels, and Spanning Trees'', Fan Chung, S.-T. Yau.
+# ''Heat Kernels, Manifolds and Graph Embedding'', Xiao Bai, Edwin R. Hancock.
+# ''Spectral Sequencing based on Graph Distance'', Rong Liu, Hao Zhang, Oliver van Kaick.
+# ''Learning to Rank Networked Entities'', Alekh Agarwal, Soumen Chakrabarti, Sunny Aggarwal.
+# ''The weighted Moore-Penrose inverse of modified matrices'', Yimin Wei.
+# ''Semiring Frameworks and Algorithms for Shortest-Distance Problems'', Mehryar Mohri.
+#: Generalization of shortest-paths in graph and associated algorithms:  Floyd-Warshall, Dijkstra, etc.
+# ''The Matrix-Forest Theorem and Measuring Relations in Small Social Groups'', P. Yu. Chebotarev, E. V. Shamis.
+#: Random forest kernel, graph kernel.
+# ''On Proximity Measures for Graph Vertices'', P. Yu. Chebotarev, E. V. Shamis.
+#: Unsigned kernels.
+#: Proof that dij = pii + pjj - pij - pji is a metric. (example proof using p(i, j) = i ∩ j for sets i and j, giving d(i, j) equal to the number of elements in the symmetric difference between i and j)
+#: ''Route accessibility'' defined using (I − A)<sup>−1</sup> (cf. von Neumann kernel)
+#: random forest kernel (I + L)<sup>−1</sup>
+# ''A measure of betweenness centrality based on random walks'', M. E. J. Newman.
+#: Random walk betweenness centrality.
+#: Equivalence between random walks and electrical resistance networks for centrality.
+# ''Directed Laplacian Kernels for Link Analysis'', Pawel Majewski.
+#: asymetric Laplacian kernel (aka directed laplacian kernel).
+# ''Collaborative Filtering with Privacy via Factor Analysis'', John Canny.
+#: Mentions that the noise in collaborative filtering corpora is about 20% of the rating range.
+#: P2P algorithm for collaborative filtering
+#: Maybe uses something similarity to mask approximation.
+#: EM algorithm converges in 15–25 steps.
+#: User- or item normalization before mask approximation.
+# ''On Expected Values and “Negative Probability” in 4-Space QED'', A. B. Evans.
+#: Negative probability, probability distribution with negative values, non-positive semi-definite kernels.
+# ''An Introduction to Kernel-based Learning Algorithms'', Klaus-Robert Müller, Sebastian Mika, Gunnar Rätsch, Koji Tsuda, Bernhard Schölkopf.
+# ''Maximum-Margin Matrix Factorization'', Nathan Srebro, Jason D. M. Rennie, Tommi S. Jaakkola.
+#: (MMMF) Low-rank approximation to the rating matrix where the factorization has small norm.  They use a variant of the two-step algorithm also used for mask approximation.
+# ''Use of KNN for the Netflix Prize'', Ted Hong, Dimitris Tsamis.
+#: Uninteresting paper, but uses the “signed weighted mean” on page 2.
+# ''Improved Neighborhood-based Collaborative Filtering'', Robert M. Bell, Yehuda Koren.
+#: various types of normalization.
+#: describes regression between two users in 3.2.
+#: Use "signed weighted average" of ratings.
+#: Uses correlation to the power 2.5 for better weighting.
+# ''Slope One Predictors for Online Rating-Based Collaborative Filtering'', Daniel Lemire, Anna Maclachlan.
+# ''Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions'', Gediminas Adomavicius, Alexander Tuzhilin.
+# ''Collaborative Filtering with Multi-component Rating for Recommender Systems'', Nachiketa Sahoo, Ramayya Krishnan, George Duncan, James P. Callan.
+#: Use the Yahoo Movie corpus, where for each movie, users can rate actors, plot, etc.
+# ''Principal Component Analysis for Large Scale Problems with Lots of Missing Values'', Tapani Raiko, Alexander Ilin, Juha Karhunen.
+#: Mask approximation using the subspace learning algorithm, modified to take into account missing values.  Uses a simplified version of the newton method for fastre convergence (involving off-diagonal elements in the Hessian matrix).
+# ''Collaborative Filtering with interlaced Generalized Linear Models'', Nicolas Delannay, Michel Verleysen.
+# ''Convergent Algorithms for Collaborative Filtering'', Jon Kleinberg, Mark Sandler. (extended abstract)
+#: How optimal collaborative filtering algorithms can get.
+# ''Unifying User-based and Item-based Collaborative Filtering Approaches by Similarity Fusion'', Jun Wang, Arjen P. de Vries, Marcel J.T. Reinders.
+#: Ensemble of user-based and item-based predictor.   ⟨Tu,Ti⟩.
+# ''A two-dimensional interpolation function for irregularly-spaced data'', Donald Shepard.
+#: Weighted mean of near points as smooth approximation.
+#: Mention that best differenciable similarity functions id d^-1 for distance d.
+# ''A Generalized Kernel Approach to Dissimilarity-based Classification'', Elżbieta Pȩkalska, Pavel Paclík, Robert P.W. Duin.
+#: Mentions dissimilarity matrices that are not positive semi-definite.
+#: uses the term “dissimilarity kernel”
+#: A.3:  mentions how to add new points without recomputing the full kernel.
+#: pseudo-Euclidean metrics
+# ''Variational Bayesian Approach to Movie Rating Prediction'', Yew Jin Lim, Yee Whye Teh.
+#: Mask approximation using EM and “greedy residual fitting”.
+#: Bayesian approach to the mask approximation problem.
+# ''On the Gravity Recommendation System'', Gábor Takács, István Pilászy, Bottyán Németh, Domonkos Tikk.
+#: Mask approximation, gradient descent algorithm.
+# ''Improving regularized singular value decomposition for collaborative filtering'', Arkadiusz Paterek.
+#: Use »improved regularized SVD«, where there is an additive rank-1 term before the multiplicative low-rank SVD.
+# ''A Learning Framework using Green’s Function and Kernel Regularization with Application to Recommender System'', Chris Ding, Rong Jin, Tao Li, Horst D Simon.
+#: Resistance distance.
+# ''Fast Direction-Aware Proximity for Graph Mining'', Hanghang Tong, Yehuda Koren, Christos Faloutsos.
+#: Asymetric proximity in directed graphs, using random walks and escape probability.
+#: Group-to-group proximity, defined using random walks.
+# ''Collaboration Over Time: Characterizing and Modeling Network Evolution'', Jian Huang, Ziming Zhuang, Jia Li, C. Lee Giles.
+#: Analysis of the computer citation network over time, with beautiful graphics.
+# ''Can Social Bookmarking Improve Web Search?'', Paul Heymann, Georgia Koutrika, and Hector Garcia-Molina.
+#: Delicious.
+# ''Follow the (Slash) dot: Effects of Feedback on New Members in an Online Community'', Cliff Lampe, Erik Johnston.
+# ''Eigentaste 5.0: Constant-Time Adaptability in a Recommender System Using Item Clustering'', Tavi Nathanson, Ephrat Bitton, Ken Goldberg.
+# –
+# ''Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights'', Robert M. Bell, Yehuda Koren.
+# '' A General Weighted Median Filter Structure Admitting Negative Weights'', Gonzalo R. Arce.
+#: signed weighted median, signed weighted mean.
+# ''Local Probabilistic Models for Link Prediction'', Chao Wang, Venu Satuluri, Srinivasan Parthasarathy.
+#: Use the Katz distance in citation graphs.
+#: derives a model based on markov random fields.
+# ''Co-Ranking Authors and Documents in a Heterogeneous Network'', Ding Zhou, Sergey A. Orshanskiy, Hongyuan Zha, C. Lee Giles.
+#: PageRank on the author-paper graph with edges given by authorship and citations.
+#: Hybrid of authorship and citations.
+# ''Fast Random Walk with Restart and Its Applications'', Hanghang Tong, Christos Faloutsos, Jia-Yu Pan.
+#: mentions normalized Laplacian.
+# ''Collaborative Machine Learning'', Thomas Hofmann, Justin Basilico.
+#: combination of content-based and collaborative filtering.
+#: uses tensors and kernels.
+# ''Centrality Measures Based on Current Flow'', Ulrik Brandes, Daniel Fleischer.
+#: ‘Laplacian’ centrality measures.
+# ''A Faster Katz Status Score Algorithm'', Kurt C. Foster, Stephen Q. Muth, John J. Potterat, Richard B. Rothenberg.
+# ''The mathematics of networks'', M. E. J. Newman.
+#: eigenvector centrality, betweenness centrality, closeness centrality.
+# –
+# ''A Faster Algorithm for Betweenness Centrality'', Ulrik Brandes.
+#: von Stephan Schmidt empfohlen.
+# ''Centrality and Network Flow'', Stephen P. Borgatti.
+#: Establishes a model for determining in what kind of network which centrality measures can be applied.
+# ''Scientific collaboration networks. II. Shortest paths, weighted networks, and centrality'', M. E. J. Newman.
+#: centrality, average distance.
+# ''A Centrality Measure for Electrical Networks'', Paul Hines, Seth Blumsack.
+#: electrical centrality.
+#: uses the complex resistance distance (“impedance distance”).
+# ''Community Mining from Signed Social Networks'', Bo Yang, William K. Cheung, Jiming Liu.
+#: Title say it all.  The task is to cluster users.  They don't use spectral methods.
+# ''Linear Iterations on Ordered Semirings for Trust Metric Computation and Attack Resiliency Evaluation'', George Theodorakopoulos, John S. Baras.
+#: trust in signed networks.  They used path lengths in a semiring.
+# –
+# –
+# ''Page-reRank: using trusted links to re-rank authority'', Paolo Massa, Conor Hayes.
+#: Standard PageRank on positive egdes followed by multiplication with full signed matrix.
+# ''Combating Web Spam with TrustRank'', Zoltán Gyöngyi, Hector Garcia-Molina, Jan Pedersen.
+#: Find "bad" pages.  Models users that can check whether a page is "good" as an oracle, and try to invoke the oracle as seldom as possible.  Based on PageRank, but does not use negative links.  Mentions "inverse PageRank", where the link matrix is transposed.  One author is associated with Yahoo.
+# ''Co-authorship, rational Erdős numbers, and resistance distances in graphs'', Balaban A.T., Klein D.J.
+#: resistance distance in the co-authorship graph, new rational Erdős numbers.
+# ''An explicit description of the reproducing kernel Hilbert spaces of Gaussian RBF kernels'', Ingo Steinwart, Don Hush, Clint Scovel.
+#: Has a nice introduction to kernels based on complex Hilbert spaces.
+# ''Nonlinear Component Analysis as a Kernel Eigenvalue Problem'', Bernhard Schölkopf, Alexander Smola, Klaus-Robert Müller.
+#: kernel PCA (KPCA).
+# –
+# ''Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering'', Derek Greene, Pádraig Cunningham.
+# ''Distance-Function Design and Fusion for Sequence Data'', Yi Wu, Edward Y. Chang.
+#: matrix exponential as kernel.
+# ''Learning Low-Rank Kernel Matrices'', Brian Kulis, Mátyás Sustik, Inderjit Dhillon.
+#: Bregman divergence.
+# ''Kernel k-means, Spectral Clustering and Normalized Cuts'', Inderjit S. Dhillon, Yuqiang Guan, Brian Kulis.
+#: generalization of kernel k-means clustering and spectral clustering.
+# ''CubeSVD: A Novel Approach to Personalized Web Search'', Jian-Tao Sun, Hua-Jun Zeng, Huan Liu, Yuchang Lu, Zheng Chen.
+#: HOSVD in the user/query/url tensor.
+# ''A graph theoretic interpretation of the mean first passage times'', Pavel Chebotarev.
+#: Laplacian matrix, mean first passage time, and graph forests.
+# ''The Forest Metric for Graph Vertices'', Pavel Chebotarev, Elena Shamis.
+#: The Forest kernel:   (I + αL)<sup>+</sup>.  The parameter α denotes the taking into account of short vs long routes.
+#: Mentions that the Random forest kernel can be interpreted as a regularized (bayesian) version of the resistance distance kernel, similar to how ridge regression has a value added to the diagonal of the data matrix.
+# ''Matrix-Forest Theorems'', Pavel Cheboratev, Elena Shamis.
+#: Background on the random forest kernel.
+# ''The Matrix of Maximum Out Forests of a Digraph and Its Applications'', R. P. Agaev, P. Yu. Chebotarev.
+#: asymetric Laplacian kernel.
+# ''On Determining the Eigenprojection and Components of a Matrix'', R. P. Agaev, P. Yu. Chebotarev.
+#:  I should understand this, but I don't.  They use the Drazin inverse.
+# ''On the spectra of nonsymmetric Laplacian matrices'', Rafig Agaev, Pavel Chebotarev.
+#: asymetric Laplacian matrices.
+#: Their eigenvalues are complex, with strictly positive real part (except for the zero eigenvalue).  In fact, all eigenvalues lie in an sector of the complex plane "facing" to real positive infinity, with angles π/2-π/n from the real axis on both sides (4).
+#: Every matrix with zero row and column sum, and nonpositive entries off the diagonal is the Laplacian matrix of some weighted digraph.
+#: Every Laplacian matrix can be written as L = α(I - P), where P is a stochastic matrix.
+# ''Forest matrices around the Laplacian matrix'', Pavel Chebotarev, Rafig Agaev.
+# ''On a Duality between Metrics and Σ-Proximities'', P. Yu. Chebotarev, E. V. Shamis.
+#: In this paper, Σ-proximities are proximity functions that sum to a constant Σ for each node, and that fulfil a certain kind of triangle inequality.
+#: Equation (1) shows how to transform a distance function into a proximity (which can be thought of as a kernel).  The inverse transformation of a kernel to a distance is given by d(i,j) = σ(i,i) + σ(j,j) - 2 σ(i,j).
+# ''The Link Prediction Problem for Social Networks'', David Liben-Nowell, Jon Kleinberg.
+#: unsigned link prediction.
+#: evaluation:  find missing edges with highest prediction, and count correctly predicted edges.
+# ''Lessons from the Netflix Prize Challenge'', Robert M. Bell, Yehuda Koren.
+#: won the first progress prize of Netflix.
+# ''The BellKor solution to the Netflix Prize'', Robert M. Bell, Yehuda Koren, Chris Volinsky.
+# ''Distances and volumina for graphs'', D.J. Klein, H.-Y. Zhu.
+#: how to define distances and higher-order measures (volumina) on graphs based on a given distance.
+#: mentions that the three metric axioms are the three first in a series.
+# –
+# ''An inclusion region for the field of values of a doubly stochastic matrix based on its graph'', Charles R. Johnson, 1978.
+#: Gives bounds for the complex eigenvalues of double stochastic matrices.
+# ''Algorithms for Estimating Relative Importance in Networks'', Scott White, Padhraic Smyth.
+#: Similarity measures:  based on distance, eigenvectors and Laplacians.
+# ''Learning Semantic Similarity'', Jaz Kandola, John Shawe-Taylor, Nello Cristianini.
+#: definition of the von Neumann kernel.
+#: definition of exponential kernel
+#: gives closed expressions for the value of λ for the von Neumann and exponential kernels.
+# ''Laplacians and the Cheeger inequality for directed graphs'', Fan Chung.
+#: mentions the directed Laplacian.  (which is symmetric…)
+# ''Fast Maximum Margin Matrix Factorization for Collaborative Prediction'', Jasson D. M. Rennie, Nathan Srebro.
+#: Fast algorithm for calculating the MMMF [197]
+# ''Collaborative Prediction Using Ensembles of Maximum Margin Matrix Factorizations'', Dennis DeCoste.
+# ''Formulating Distance Functions via the Kernel Trick'', Gang Wu, Edward Y. Chang, Navneet Panda.
+#: They use “Laplacian kernel” to denote exp(-λ |x−y|), which is pretty similar to the Gaussian kernel.
+#  ''Social Network Analysis: A Handbook.'', Scott, John. (2000). 2nd Ed. Newberry Park, CA: Sage. ISBN 0761963383
+# ''A clustering coefficient for weighted networks, with application to gene expression data'', Gabriela Kalna, Desmond J. Higham.
+#: Extension of the clustering coefficient for positively weighted edges.
+# ''Multiple Relationship Types in Online Communities and Social Networks'', Tad Hogg, Dennis M. Wilkinson, Gabor Szabo, Michael J. Brzozowski.
+#: Another look at Essembly.
+# ''The PageRank Citation Ranking: Bringing Order to the Web'', Page, Lawrence; Brin, Sergey; Motwani, Rajeev; Winograd, Terry.
+# ''Hits on the web: how does it compare?'', Marc A. Najork, Hugo Zaragoza, Michael J. Taylor.
+#: MAP, mean average precision.
+# ''A Duality View of Spectral Methods for Dimensionality Reduction'', Lin Xiao, Jun Sun, Stephen Boyd.
+#: Comparse (nonlinear) dimensional reduction methods based on the largest and smallest eigenvalues of some matrix.
+# ''Learning with Non-Metric Proximity Matrices'', Gang Wu, Edward Y. Chang, and Zhihua Zhang.
+#: Methods for making a pseudo-kernel positive semidefinite.
+# ''The Kernel Trick for Distances'', Bernhard Schölkopf.
+#: Conditionally positive definite kernels.  They are to positive-definite kernels what squared Euclidean distance is to the scalar product.
+# ''Metric and Euclidean Properties of Dissimilarity Coefficients'', P. Legendre, J. C. Gower. (1986)
+#: dduality between "similarity functions" and metrics.
+#: Euclidean metrics and non-Euclidean metrics.
+# ''On the information and representation of non-Euclidean pairwise data'', Julian Lauba , Volker Roth, Joachim M. Buhmann, Klaus-Robert Müller.
+#: Correspondence between pseudo-Euclidean metrics and kernels/inner products.
+# ''Fast Discovery of Connection Subgraphs'', Christos Faloutsos, Kevin S. McCurley, and Andrew Tomkins.
+#: The connection subgraph problem:  given a graph and two nodes, find a subset of the graph that best describes the connection between the two nodes, in at most B nodes.
+#: Their idea:  use the current that can flow through the subgraph as a measure of goodness.
+# ''Measuring and Extracting Proximity in Networks'', Yehuda Koren, Stephen C. North and Chris Volinsky.
+#: proximity between more than two nodes in a graph, based on electrical resistance models.
+# ''An r-Dimensional Quadratic Placement Algorithm'', Kenneth M. Hall. (1970)
+#: Problem:  Project high-dimensional data given by pairwise distance/similarity into a low-dimensional space.
+#: Solution:  Using the smallest (nontrivial) eigenvectors of the Laplacian.
+# ''Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions'', Xiaojin Zhu, Zoubin Ghahramani, John Lafferty
+#: Markov random field and connection to the Graph laplacian
+# ''Centrality in valued graphs: A measure of betweenness based on network flow'', Linton C. Freeman, Stephen P. Borgatti, Douglas R. White.
+#: Network flows in the "max flow" sense, not electrical models.
+# ''Higher Order Learning with Graphs'', Sameer Agarwal, Kristin Branson, Serge Belongie.
+#: The Laplacian of hypergraphs.
+# ''A partitioning approach to structural balance'', Patrick Doreian, Andrej Mrvar.
+#: Sociological paper about social networks with negative edges.
+#: They define the network as "balanced" if it doesn't contain cycles with exactly one negative edge.
+# ''Spectral Graph Theory'', Fan Chung (book, 1997).
+#: considers only the spectrum of the graphs Laplacian, especially the normalized Laplacian.  (The graph's adjacency matrix' spectrum is not studied.)
+# ''Spectral Graph Theory and its Applications'', Dan Spielman (lecture).
+#: Laplacian embedding (Laplacian PCA).
+# ''Laplacian eigenmaps and spectral techniques for embedding and clustering'', Mikhail Belkin, Partha Niyogi.
+#: build a graph out of a point set (by treshold or nearest neighbor) and do Laplacian PCA on that.  Use the generalized eigenvalue problem on L and D.
+# ''R-MAT: A Recursive Model for Graph Mining'', Deepayan Chakrabarti, Yiping Zhan, Christos Faloutsos.
+#: A random graph model that subsumes some other graph model.
+#: Predicts non-power laws (sometimes).
+#: Use the epinions corpus of trust.
+# ''A Short Tour of Kernel Methods for Graphs'', Thomas Gärtner, Quoc V. Le, Alex J Smola.
+#: Also mentions:  kernels on nodes of a graph, Laplacian kernels, etc.
+# ''Graph Effective Resistance and Distributed Control:  Electrical Analogy and Scalability'', Prabir Barooah, João P. Hespanha.
+#: Resistance distance in graphs where each edges has a resistance represented by a k×k symmetric positive semi-definite matrix.  Some standard proofs and embeddings into d-dimensional space.
+# ''Probabilities on Trees and Networks'', Russel Lyons. (book)
+# ''Drawing Graphs to Convey Proximity: An Incremental Arrangement Method'', Jonathan D. Cohen.
+#: Graph drawing, including Laplacian.
+# ''A Multilinear Singular Value Decomposition'', LIEVEN DE LATHAUWER, BART DE MOOR, AND JOOS VANDEWALLE.
+#: Higher order singular value decomposition (HOSVD).
+# ''The Laplacian Spectrum of Graphs'', Bojan Mohar.
+# ''Some Applications of Laplace Eigenvalues of Graphs'', Bojan MOHAR.
+#: Lots of facts about Laplacoan eigenvalues
+#: 3.4:  Edge-forwarding index
+# ''Spectral Methods for Dimensionality Reduction'', Lawrence K. Saul, Kilian Q. Weinberger, Fei Sha, Jihun Ham, Daniel D. Lee.
+#: nonlinear dimensional reduction
+# ''DiffusionRank: A Possible Penicillin for Web Spamming'', Haixuan Yang, Irwin King, and Michael R. Lyu.
+#: variation of PageRank.
+# ''Inferring Web Communities from Link Topology'', David Gibson, Jon Kleinberg, Prabhakar Raghavan.
+#: rehash of HITS (hub/authorities)
+# ''The Small-World Phenomenon:  An Algorithmic Perspective'', Jon Kleinberg.
+# ''Graphs over Time: Densification Laws, Shrinking Diameters and Possible Explanations'', Jure Leskovec, Jon Kleinberg, Christos Faloutsos.
+# ''Semantic Analysis of Tag Similarity Measures in Collaborative Tagging Systems'', Ciro Cattuto, Dominik Benz, Andreas Hotho, Gerd Stumme.
+# ''Graph Commute Times for Image Representation'', Régis Behmo, Nikos Paragios, Véronique Prinet.
+#: Graph Laplacian on graphs extracted from images.
+# ''Graph Nodes Clustering based on the Commute-Time Kernel'', Luh Yen, François Fouss, Christine Decaestecker, Pascal Francq,                               Marco Saerens.
+#: L+ as a kernel for clustering
+#: sigmoid Laplacian kernel:  K'ij = 1/(1+exp(α Kij))
+# –
+# ''EigenRank: A Ranking-Oriented Approach to Collaborative Filtering'', Nathan N. Liu, Qiang Yang.
+#: No negative edges, they take the exponential.
+# ''A kernel view of the dimensionality reduction of manifolds'', Jihun Ham, Daniel D. Lee, Sebastian Mika, Bernhard Schölkopf.
+# ''Learning with Non-Positive Kernels'', Cheng Soon Ong, Xavier Mary, Stéphane Canu, Alexander J. Smola.
+#: Non-positivesemidefinite (pseudo-)kernels.
+#: Minkowski spacetime as an example.
+# ''Feature Discovery in Non-Metric Pairwise Data'', Julian Laub, Klaus-Robert Müller.
+#: Pseudo-metrics with negative eigenvalues, with examples.
+# ''Co-clustering documents and words using Bipartite Spectral Graph Partitioning'', Inderjit S. Dhillon.
+#: Laplacian matrices.
+#: The smallest eigenvalue of the generalized Laplacian eigenvalue problem can be calculated with the SVD of the normalized adjacency matrix.
+#: They reduce co-clustering to spectral clustering on the bipartite graph.
+# ''Regularization on Discrete Spaces'', Dengyong Zhou and Bernhard Schölkopf.
+#: Various operators on graphs
+# –
+# ''A spectral method to separate disconnected and nearly-disconnected Web graph components'', Xiaofeng He, Hongyuan Zha, Chris H.Q. Ding.
+#: spectral 2-clustering of large graphs that contain two large components connected by few bridges.
+# ''Combining Hierarchy and Energy for Drawing Directed Graphs'', Liran Carmel, David Harel, Yehuda Koren.
+#: graph drawing with the Laplacian and other edge equations to minimize.
+# ''Random Walks on Graphs:  A Survey'', L. Lovász.
+# ''The heat kernel as the pagerank of a graph'', Fan Chung.
+# ''Graph Structure in the Web'', Andrei Broder, Ravi Kumar, Farzin Maghoul, Prabhakar Raghavan, Sridhar Rajagopalan, Raymie Stata, Andrew Tomkins, Janet Wiener.
+#: From 1999 Altavista data.  Contains the famous "bowtie" model of the web digraph.
+# ''PageRank Computation and the Structure of the Web:  Experiments and Algorithms'', Arvind Arasu.
+#: How to compute PageRank.
+# ''Power-Laws and the AS-level Internet Topology'', Georgos Siganos, Michalis Faloutsos, Petros Faloutsos, Christos Faloutsos.
+#: Power-law in the "AS" network:  node degree, eigenvalues of the adjacency matrix.
+#: The powerlaw-exponent for eigenvalues is half that of the degree distribution
+# ''The “DGX” Distribution for Mining Massive, Skewed Data'', Zhiqiang Bi, Christos Faloutsos, Flip Korn.
+#: A discrete distribution that matches power laws.  It is a discrete version of the lognormal distribution.  On a log-log scale, power-laws following this distribution follow a 2nd degree polynomial.
+# ''Spectral Analysis of Internet Topologies'', Christos Gkantsidis, Milena Mihail, Ellen Zegura.
+#: Spectral analysis of large AS graphs, but only considers the spectrum of the adjacency matrix, not of the Laplacian.  Says that normalization is good when the degree distribution is very skewed.
+#: The largest eigenvalues are close to sqrt(d_1), sqrt(d_2), …, where d_1, d_2, … are the largest degrees.
+# ''Semi-Supervised Clustering via Matrix Factorization'', Fei Wang, Tao Li, Changshui Zhang.
+#: Networks with positive and negative links for clustering.
+# –
+# –
+# ''Matrices in the Theory of Signed Simple Graphs'', Thomas Zaslavsky (2008)
+#: Signed Graph Laplacians
+# –
+# ''Propagating Trust and Distrust to Demote Web Spam'', Baoning Wu, Vinay Goel, Brian D. Davison.
+#: Combine PageRank with "BadRank" to get a better PageRank less vulnerable to spam.  BadRank is the PageRank computed with a seed set of known spam pages.
+# ''A Many Valued Representation and Propagation of Trust and Distrust'', Martine De Cock, Paulo Pinheiro da Silva.
+#: Trust and distrust model where trust+distrust never exceeds 1.
+# ''A Family of Dissimilarity Measures between Nodes Generalizing both the Shortest-Path and the Commute-time Distances'', Luh Yen, Marco Saerens, Amin Mantrach, Masashi Shimbo. (KDD 2008)
+#: A similarity measure that has a parameter Φ that corresponds to the Laplacian kernel for Φ=0 and to the shortest path distance for big Φ.
+#: good overview of Laplacian and spectral graph kernels.
+# ''Hypergraph Spectral Learning for Multi-label Classification'', Liang Sun, Shuiwang Ji, Jieping Ye.
+#: Hypergraph Laplacian, Higher-order Laplacian.
+# ''Geometric diffusions as a tool for harmonic analysis and structure definition of data: Diffusion maps'', R. R. Coifman, S. Lafon, A. B. Lee, M. Maggioni, B. Nadler, F. Warner, S. W. Zucker.
+#: Laplacian operator based on Gaussian kernel for dimensionality reduction.
+# ''Statistical Analysis of the Social Network and Discussion Threads in Slashdot'', Vicenç Gómez, Andreas Kaltenbrunner, Vicente López.
+# ''DBpedia.org – Querying Wikipedia like a Database'', Bizer, C.; Cyganiak, R.; Auer, S.; Kobilarov, G.
+#: not the primary DBpedia reference
+# ''YAGO: A Core of Semantic Knowledge Unifying WordNet and Wikipedia'', Fabian M. Suchanek, Gjergji Kasneci, Gerhard Weikum.
+# ''Social Status in an Open-source Community'', Daniel Stewart.
+#: Advogato.
+# ''Incorporating Contextual Information in Recommender Systems Using a Multidimensional Approach'', Gediminas Adomavicius, Ramesh Sankaranarayanan, Shahana Sen, Alexander Tuzhilin.
+#: Overview of content-based, collaborative and hybrid recommender systems.
+#: Weighted-mean formular, using sum as absolute weights for normalization.
+#: using all entities in the recommendation system, make a big high-order model.
+# –
+# ''Learning Multiple Graphs for Document Recommendations'', Ding Zhou, Shenghuo Zhu, Kai Yu, Xiaodan Song, Belle L. Tseng, Hongyuan Zha, C. Lee Giles.
+#: Recommendation on a static Author-document-venue model.
+#: They combine several adjacency matrices with empirical weights.
+#: Online update.
+# ''Semi-supervised Graph Clustering: A Kernel Approach'', Brian Kulis, Sugato Basu, Inderjit Dhillon, Raymond Mooney.
+#: spectral constrained clustering with kernels. (but no signed laplacian)
+# ''Computation of the Singular Value Decomposition'', Alan Kaylor Cline, Inderjit S. Dhillon.
+#: Algorithms for computing the svd.
+# ''A Survey on PageRank Computing'', Pavel Berkhin.
+#: Computation of PageRank.
+# ''A New Kernel for Classification of Networked Entities'', Dell Zhang, Robert Mao.
+#: Based on matrix »M«.
+# ''Parallel Spectral Clustering'', Yangqiu Son , Wen-Yen Chen, Hongjie Bai, Chih-Jen Lin, and Edward Y. Chang.
+#: parallel eigendecomposition.
+# ''Amazon.com recommendations: item-to-item collaborative filtering'', Linden, G.; Smith, B.; York, J..
+# ''The Cinematch System:  Operation, Scale, Coverage, Accuracy Impact'', Jim Bennett.
+#: Description of Cinematch, the collaborative recommender system of Netflix.
+#: (I can only find a presentation, no paper)
+# ''The Enron Corpus:  A New Dataset for Email Classiffication Research'', Bryan Klimt and Yiming Yang.
+#: The Enron email corpus.
+# ''BibSonomy: A Social Bookmark and Publication Sharing System'', Andreas Hotho, Robert Jäschke, Christoph Schmitz, Gerd Stumme.
+# ''Probabilistic Latent Semantic Analysis'', Thomas Hofmann.
+#: (PLSA).
+# ''Probabilistic Diffusion Classifiers for Object Detection'', Christian Bauckhage.
+# ''Citeulike: A Researcher's Social Bookmarking Service'', Emamy, Kevin   and Cameron, Richard.
+# ''A Least-Squares Approach to Joint Diagonalization'', Mati Wax.
+# ''Bounds for the Least Laplacian Eigenvalue of a Signed Graph'', Hou, Yao.
+# ''The structure of scientific collaboration networks'', M. E. J. Newman.
+#: hep-th-citations.
+# ''Joint Diagonalization of Kernels for Information Fusion'', Alberto Muñoz and Javier González.
+# ''Exploit Semantic Information for Category Annotation Recommendation in Wikipedia'', Yang Wang, Haofen Wang, Haiping Zhu, and Yong Yu.
+# –
+# ''On the Laplacian Eigenvalues of Signed Graphs'', Hou, Y. Li, J. Pan, Y..
+# ''ACE: A Fast Multiscale Eigenvectors Computation for Drawing Huge Graphs'', Yehuda Koren Liran Carmel David Harel.
+#: They use the ordinary Laplacian for signed, i.e. they don't take the absolute value.  The matrix is not always positive-semidefinite.
+# ''Latent Dirichlet Allocation'', David M. Blei, Andrew Y. Ng, Michael I. Jordan.
+#: (LDA)
+# ''Modern Information Retrieval'', Ricardo Baeza-Yates, Berthier Ribeiro-Neto.
+#: TF-IDF.
+# ''Modeling Online Reviews with Multi-grain Topic Models'', Ivan Titov, Ryan McDonald.
+# ''The Adaptive Web'', Brusilovsky, Peter; Kobsa, Alfred; Nejdl, Wolfgang (editors).
+# –
+# ''Signed Graph Laplacians'', Mitchell T. Keller.
+#: Signed Laplacian, but without the absolute value.  In the context of knot theory.
+# –
+# ''Dual graphs and knot invariants'', Magnhild Lien, William Watkins.
+#: Signed graph Laplacian, but without absolute value (is no pos-semidef).
+# –
+# –
+# ''Trust metrics on controversial users: balancing between tyranny of the majority and echo chambers'', Paolo Massa, Paolo Avesani.
+#: Journal version of previous paper.
+# ''Tag Recommendations Based on Tensor Dimensionality Reduction'', Panagiotis Symeonidis, Alexandros Nanopoulos, Yannis Manolopoulos.
+#: HOSVD.
+#: Last.fm, BibSonomy.
+# –
+# ''Online-Updating Regularized Kernel Matrix Factorization Models for Large-Scale Recommender Systems'', Steffen Rendle, Lars Schmidt-Thieme.
+#: Matrix factorization.
+#: They subtract a »bias term«:  global average or some other simple prediction.
+#: They can learn A=K(UV') for any kernel K by gradient descent.
+# ''Matrix Factorization and Neighbor Based Algorithms for the Netflix Prize Problem'', Gábor Takács, István Pilászy, Bottyán Németh, Domonkos Tikk.
+#: Matrix factorization == mask approximation.
+#: Regularization:  penalization the magnitude of components in factors.
+# –
+# ''Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model'', Yehuda Koren.
+#: Linear regression for find user and item normalization weights.
+#: They use the rating matrix along with its binary equivalent with the same sparsity pattern.
+# ''The WT10G dataset and the evolution of the Web'', Wei-Tsen Milly Chiang, Markus Hagenbuchner, Ah Chung Tsoi.
+#: not the reference to wt10g.
+# ''The NBER Patent Citations Data File:  Lessons, Insights and Methodological Tools'', Bronwyn Hall, Adam Jaffe, Manuel Trajtenberg.
+#: the patentcite dataset.
+# –
+# ''Spectral Regression: A Unified Subspace Learning Framework for Content-Based Image Retrieval'', Deng Cai, Xiaofei He, Jiawei Han.
+# ''Combining Content and Link for Classification using Matrix Factorization'', Shenghuo Zhu, Kai Yu, Yun Chi, Yihong Gong.
+#: They decompose an assymetric square matrix as A = ZUZ', where U is small, square and assymetric.
+#: They use link graphs.
+#: Could be equivalent to the polaR trick.
+# ''Semantic Web Recommender Systems'', Cai-Nicolas Ziegler.
+#: Not the semantic web.  Takes trust of peers into account.  Uses agents.
+# ''Algorithms for Orthogonal Nonnegative Matrix Factorization'', Seungjin Choi.
+# ''Some Applications of Laplace Eigenvalues of Graphs'', Bojan Mohar.
+# ''Spectral Criterion for Cycle Balance in Networks'', B. Devadas Acharya.
+#: The Laplacian of a balanced signed graph is cospectral with the Laplacian of its unsigned counterpart.
+# ''The Electrical Resistance of a Graph Captures its Commute and Cover Times'', Ashok K. Chandra, Prabhakar Raghavan, Walter L. Ruzzo, Roman Smolensky, Prasoon Tiwari.
+# ''Nonnegative Matrix Factorization via Rank-One Downdate'', Michael Biggs, Ali Ghodsi, Stephen Vavasis.
+#: Rank-one downdate (R1D).
+#: Jordan's SVD algorithm.
+# ''On the Early History of the Singular Value Decomposition'', G. W. Stewart.
+#: SVD.
+#: SVD can be computed by iterative rank-1 approximation and subtraction.
+# ''Relation between PLSA and NMF and Implications'', Eric Gaussier, Cyril Goutte.
+# ''Multi-HDP: A Non Parametric Bayesian Model for Tensor Factorization'', Ian Porteous, Evgeniy Bart, Max Welling.
+# ''Construction of bipartite and unipartite weighted networks from collections of journal papers'', Steven A. Morris, and Gary G. Yen.
+#: bibliographic coupling, co-citation graph.
+#: Hybrid approach, because it combines author-publication, publication-publication and publication-term.
+# ''Network Analysis of Collaboration Structure in Wikipedia'', Ulrik Brandes, Patrick Kenis, Jürgen Lerner, Denise van Raaij.
+#: Wikipedia revert graphs for single articles.
+# ''Learning Probabilistic Models of Link Structure'', Lise Getoor, Nir Friedman, Daphne Koller, Benjamin Taskar.
+#: probabilistic model for "semantic" datasets
+# ''A New Approach to Collaborative Filtering:  Operator Estimation with Spectral Regularization'', Jacob Abernethy, Francis R. Bach, Theodoros Evgeniou, Jean-Philippe Vert.
+#: generalizations of trace/rank regularization.
+# ''Algorithms for Non-negative Matrix Factorization'', Daniel D. Lee, H. Sebastian Seung.
+#: NNMF.
+# ''Constrained Spectral Clustering under a Local Proximity Structure Assumption'', Qianjun Xu, Marie desJardins, Kiri Wagstaff.
+#: Set edges to 0 for non-connect constraints and to 1 for connect constraints.
+# ''Constrained Spectral Clustering through Affinity Propagation'', Zhengdong Lu,  Miguel Á. Carreira-Perpiñán.
+# ''Diameter of the World-Wide Web'', Réka Albert, Hawoong Jeong, Albert-László Barabási.
+#: The »www« dataset.
+# ''Engineering a multi-purpose test collection for Web retrieval experiments'', Peter Bailey, Nick Craswell, David Hawking.
+#: trec-wt10g
+# ''FilmTrust: Movie Recommendations from Semantic Web-based Social Networks'', Jennifer Golbeck.
+#: Hybrid recommender system using social relations from a FOAF network and ratings.
+# –
+# ''Summarizing Dynamic Bipolar Conﬂict Structures'', Ulrik Brandes, Daniel Fleischer, Jürgen Lerner.
+#: drawing signed graphs using the largest and smallest eigenvectors of the graph's adjacency matrix.
+# ''Classifying Networked Entities with Modularity Kernels'', Dell Zhang, Robert Mao.
+#: Modularity kernel:  M = A−P = A−(4m)<sup>−1</sup>dd<sup>T</sup>, where d is the degree vector.
+#: they keep only the nonnegative eigenvalues of M.
+# ''Highlighting Conﬂict Dynamics in Event Data'', Ulrik Brandes, Daniel Fleischer, Jürgen Lerner.
+# ''Improved Neighborhood-Based Algorithms for Large-Scale Recommender Systems'', Andreas Töscher, Michael Jahrer, Robert Legenstein.
+#: They learn the similarity matrix for the weight mean collaborative filtering algorithm by stochastic gradient descent.
+#: They use the weighted mean using similarities that can get negative and therefore use the absolute alue of similarities in the denominator.
+# ''Link Propagation: A Fast Semi-supervised Learning Algorithm for Link Prediction'', Hisashi Kashima, Tsuyoshi Kato, Yoshihiro Yamanishi, Masashi Sugiyama, Koji Tsuda.
+#: Tensor Laplacian with Kroneker product.
+# ''On Spectral Graph Drawing'', Yehuda Koren.
+# ''Visualization of Conﬂict Networks'', Ulrik Brandes, Jürgen Lerner.
+# ''Social network collaborative filtering'', Rong Zheng, Dennis Wilkinson, Foster Provost.
+# –
+# ''Scalable Modeling of Real Graphs using Kronecker Multiplication'', Jure Leskovec, Christos Faloutsos.
+#: Random graph model based on the iterative Kronecker product of a 2×2 matrix with itself.
+#: Degree distribution, scree plots, network value plots, etc.
+# ''Realistic, Mathematically Tractable Graph Generation and Evolution, Using Kronecker Multiplication'', Jurij Leskovec (Jure Leskovec), Deepayan Chakrabarti, Jon Kleinberg, and christos Faloutsos.
+# ''Kronecker Graphs: an Approach to Modeling Networks'', Jure Leskovec, Deepayan Chakrabarti, Jon Kleinberg, Christos Faloutsos, Zoubin Gharamani.
+# ''Random Dot Product Graph Models for Social Networks'', Stephen J. Young, Edward R. Scheinerman.
+# ''Finding community structure in networks using the eigenvectors of matrices'', M. E. J. Newman.
+#: The modularity kernel.
+#: The largest eigenvalue is used for clustering, with edges denoting similarity
+#: The smallest eigenvalue is used for clustering, with edges denoting dissimilarity
+# ''View through MetaLens: usage patterns for a meta-recommendation system'', J.B. Schafer, J.A. Konstan and J. Riedl.
+# ''Nonnegative Matrix Factorization and Probabilistic Latent Semantic Indexing:  Equivalence, Chi-square Statistic, and a Hybrid Method'', Chris Ding, Tao Li, Wei Peng.
+# ''Visual Analysis of Controversy in User-generated Encyclopedias'', Ulrik Brandes, Jürgen Lerner.
+# ''A combinatorial Laplacian with vertex weights'', F. R. K. Chung, Robert P. Langlands.
+#: Equivalent to the binormalized Laplacian.
+# –
+# ''On the Relationship between Probabilistic Semantic Analysis and Nonnegative Matrix Factorization'', Martin Blom, Zack McCoy.
+# ''Analysis of weighted networks'', M. E. J. Newman.
+# ''Rhythms of social interaction: messaging within a massive online network'', Scott Golder, Dennis Wilkinson, Bernardo Huberman.
+#: The same people that published the facebook-wosn dataset, but this article studies the complete network.
+# ''Analysis of the Publication Sharing Behaviour in BibSonomy'', Robert Jäschke, Andreas Hotho, Christoph Schmitz, Gerd Stumme.
+# ''Google News Personalization: Scalable Online Collaborative Filtering'', Abhinandan Das, Mayur Datar, Ashutosh Garg, Shyam Rajaram.
+# ''The Laplacian spectrum of complex networks'', A. Jamakovic, P. Van Mieghem.
+#: The IP-level internet graph
+#: reviews several random graph models
+#: Contains plots of the Laplacian spectrum
+# ''Weighted Spectral Distribution for Internet Topology Analysis: Theory and Applications'', Damien Fay, Hamed Haddadi, Andrew Thomason, Andrew W. Moore, Richard Mortier, Almerima Jamakovic, Steve Uhlig, Miguel Rio.
+#: The Laplacian spectrum stays constant over time.
+# ''Combining Content and Collaboration in Text Filtering'', Ian M. Soboroff, Charles K. Nicholas.
+#: A hybrid recommender system, although I don't understand how it works.  (no explicit formulas)
+# ''Freebase: A Collaboratively Created Graph Database For Structuring Human Knowledge'', Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, Jamie Taylor.
+# ''Vertex similarity in networks'', E. A. Leicht, Petter Holme, M. E. J. Newman.
+#: von Neumann kernel (1−αA)<sup>−1</sup>
+# ''Link Mining: A Survey'', Lise Getoor, Christopher P. Diehl.
+#: Overview of ML problems in graphs:  Not just link prediction, but other graph-related tasks.
+# ''Open IPTV Forum'', Open IPTV Forum.
+# ''Introducing the Enron Corpus'', Bryan Klimt, Yiming Yang.
+# ''Network Analysis – Methodological Foundations'', Ulrik Brandes, …, Jürgen Lerner, … (book)
+# ''Information Retrieval using a Singular Value Decomposition Model of Latent Semantic Structure'', George W. Furnas, Scott C. Deerwester, Susan T. Dumais, Thomas K. Landauer, Richard A. Harshman, Lynn A. Streeter, Karen E. Lochbaum.
+#: Latent semantic analysis (LSA)
+# ''Some Mathematical Notes on Three-mode Factor Analysis'', Ledyard R. Tucker.
+#: tucker decomposition for tensors
+# ''Analysis of Individual Differences in Multidimensional Scaling via an n-Way Generalization of "Eckart-Young" Decomposition'',  J. Douglas Carroll, Jih-Jie Chang.
+# ''Flickr Tag Recommendation based on Collective Knowledge'', Börkur Sigurbjörnsson, Roelof van Zwol.
+#: They combine WordNet with Flickr tags.
+# ''WordNet: An Electronic Lexical Database'', Christiane Fellbaum.  (book)
+# ''Probabilistic Horn Abduction and Bayesian Networks'', David Poole.
+#: Recommendation in semantic networks?
+# –
+# ''Scale-free characteristics of random networks:  the topology of the world-wide web'', Albert-László Barabási, Réka Albert, Hawoong Jeong.
+# ''Improving Social Filtering Techniques Through WordNet-Based User Profiles'', Pasquale Lops, Marco Degemmis, Giovanni Semeraro.
+#: Hybrid social-lexicographic recommender, with WordNet.
+# ''Spectra of ‘Real-world Graphs’: Beyond the Semicircle Law'', Illés Farkas, Imre Derényi, Albert-László Barabási, Tamás Vicsek.
+#: Spectrum of real graphs.
+#: inverse participation ratio of eigenvectors.
+#: several random graph models:  preferential attachment (= scale-free model), etc.
+# ''Evolution of the Social Network of Scientific Collaborations'', A.L. Barabási, H. Jeong, Z. Néda, E. Ravasz, A. Schubert, T. Vicsek.
+#: Lots of graph dynamics.
+#: Preferential attachment.
+#: Good introduction to random graph models.
+# ''Hierarchical organization in complex networks'', Erzsébet Ravasz and Albert-László Barabási.
+#: Something similar to the Kronecker product random graph model.
+# ''The topological relationship between the large-scale attributes and local interaction patterns of complex networks'', A. Vázquez, R. Dobrin, D. Sergi, J.-P. Eckmann, Z. N. Oltvai, and A.-L. Barabási.
+# ''Networks Evolving Step by Step: Statistical Analysis of Dyadic Event Data'', Ulrik Brandes, Jürgen Lerner, and Tom A. B. Snijders.
+#: Evalution of signed networks.
+#: They check to what extent the friend-of-friend, friend-of-enemy, enemy-of-enemy, etc. rules hold.
+# ''Large-Graph Layout Algorithms at Work:  An Experimental Study'', Stefan Hachul, Michael Jünger.
+#: Graph drawing using several methods, including Laplacian embedding and force-based methods.
+# ''The Binary Stress Model for Graph Drawing'', Yehuda Koren, Ali Çivril.
+#: Embedding large graphs into the plane using the Laplacian to with a non-sparse uniform matrix is added which has to be solved by implementing the matrix-vector product efficiently.
+# ''Comparison and validation of community structures in complex networks'', Mika Gustafsson, Michael Hörnquist, Anna Lombardi.
+#: In some kernel matrices, take the Euclidean distance in the matrix square root.
+# ''Web Content Categorization Using Link Information'', Zoltán Gyöngyi, Hector Garcia-Molina.
+#: Hybrid Content-Hyperlink recommender.
+# ''Online Learning over Graphs'', Mark Herbster, Massimiliano Pontil, Lisa Wainer.
+#: Learning function on graphs vertices with the Laplacian.
+# ''Normalized Cuts and Image Segmentation'', Jianbo Shi, Jitendra Malik.
+#: The Shi–Malik spectral clustering algorithm based on the (q) variant:  the right eigenvectors of D<sup>−1</sup>A.
+# ''On Spectral Clustering:  Analysis and an Algorithm'', Andrew Y. Ng, Michael I. Jordan, Yair Weiss.
+#: Spectral clusternig using the binormalized Laplacian D<sup>−1/2</sup>LD<sup>−1/2</sup>, a.k.a. variant (n) in my dissertation.
+# ''A Flexible Lognormal Sum Approximation Method'', Jingxian Wu, Neelesh Mehta, Jin Zhang.
+# ''Structural Similarity in Graphs'', Ulrik Brandes, Jürgen Lerner.
+#: Something like cospectral graphs
+# –
+# ''Survey of Graph Database Models'', Renzo Angles, Claudio Gutierrez.
+# ''Efficient computation of PCA with SVD in SQL'', Mario Navas, Carlos Ordonez.
+#: QR algorithm, Householder transformations.
+# ''SoftRank: Optimizing Non-Smooth Rank Metrics'', Michael Taylor, John Guiver, Stephen Robertson, Tom Minka.
+#: A good example of why continuous objective functions are a good idea.
+# ''Approximation with Kronecker Products'', Charles Van Loan, Nikos Pitsianis.
+#: A ≈ U × V, where × is the Kronecker product.
+# –
+# ''Power-law distributions in empirical data'', Aaron Clauset, Cosma Rohilla Shalizi, M. E. J. Newman.
+# ''Persistance and Periodicity in a Dynamic Proximity Network'', Aaron Clauset, Nathan Eagle.
+#: Network evolution.
+# ''Geometry-aware Metric Learning'', Zhengdong Lu, Prateek Jain, Inderjit S. Dhillon, ICML 2009.
+#: Metric learning:  given a graph with positive and negative edges, learn an embedding into a low-dimensional space such that d(i,j)&lt;u when i and j and connected by a positive edge and d(i,j)&gt;l when they are connected by a negative edge, with u>0 and l>0.
+#: At the same time, they search a kernel K that is a spectral transformation of the Laplacian L which is monotonous:  i.e. if 0 ≤ λ<sub>1</sub> ≤ λ<sub>2</sub>≤… are the Laplacian eigenvalues, then the spectral transformation f satisfies f(λ<sub>i</sub>) ≥ f(λ<sub>j</sub>) iff λ<sub>i</sub> ≤ λ<sub>j</sub>.
+#: Their solution is "geometry aware".
+#: The use the LogDet divergence between kernels D(K1, K2).
+#: I met Zhengdong Lu and Prof. Dhillon at ICML 2009.
+#: function FindAlpha:  does exactly what [spectral transformation] does, with an additional monotonicity constraint.
+# ''Spectral Clustering based on the graph p-Laplacian'', Thomas Bühler, Matthias Hein.
+#: I met Thomas at ICML 2009.
+# ''Topic-Link LDA: Joint Models of Topic and Author Community'', Yan Liu, Alexandru Niculescu-Mizil, Wojciech Gryc.
+#: Hybrid social & hyperlink link prediction.
+# ''Learning Kernels from Indefinite Similarities'', Yihua Chen, Maya R. Gupta, Benjamin Recht.
+# –
+# ''Co-Clustering of High Order Relational Data Using Spectral Hypergraph Partitioning'', Jie Chen, Yousef Saad.
+# ''Information-Theoretic Metric Learning'', Jason V. Davis, Brian Kulis, Prateek Jain, Suvrit Sra, Inderjit S. Dhillon.
+# ''Semi-supervised graph clustering: a kernel approach'', Brian Kulis, Sugato Basu, Inderjit Dhillon, Raymond Mooney.
+#: Relation to constrained clustering with the signed Laplacian?
+#: They call their algorithm SS-KERNEL-KMEANS
+#: They minimize a similar measure to my signed cut (scut)
+# –
+# ''Dynamics of Large Networks'', Jure Leskovec.
+# ''Clustering and preferential attachment in growing networks'', M. E. J. Newman.
+#: preferential attachment
+# ''Friends and Neighbors on the Web'', Lada A. Adamic, Eytan Adar.
+#: The "Adamic/Adar" measure as it is called in [256].
+# ''Open Questions Concerning Weiszfeld's Algorithm for the Fermat–Weber Location Problem'', R. Chandrasekaran, A. Tamir.
+#: An iterative solution to the multidimensional sum-of-distances minimization problem.
+# ''Lower Rank of Approximation Matrices by Least Squares With Any Choice of Weights'', K. Ruben Gabriel, S. Zamir. (1977)
+#: Early paper about mask approximation.
+# ''Spectra of random graphs with given expected degrees'', Fan Chung, Linyuan Lu, Van Vu.
+#: Under specific conditions, the spectrum follows the distributions of squared degrees. (when for degree that are not too small)
+#: The Laplacian spectrum follows the semicircle law
+# ''Computing the Inverse Matrix Hyperbolic Sine'', J. R. Cardoso, and F. Silva Leite.
+# ''On the Evolution of User Interaction in Facebook'', Bimal Viswanath, Alan Mislove, Meeyoung Cha, Krishna P. Gummadi.
+#: The facebook-wosn dataset.
+# ''Learning to Recommend with Social Trust Ensemble'', Hao Ma, Irwin King, Michael R. Lyu.
+#: Hybrid social-collaborative recommender.
+# ''Fast Nonparametric Matrix Factorization for Large-scale Collaborative Filtering'', Kai Yu, Shenghuo Zhu, John Lafferty, Yihong Gong.
+#: Learning the reduced rank.
+# ''Meme-tracking and the Dynamics of the News Cycle'', Jure Leskovec, Lars Backstrom, Jon Kleinberg.
+# ''Parallel Community Detection on Large Networks with Propinquity Dynamics'', Yuzhou Zhang, Jianyong Wang, Yi Wang, Lizhu Zhou,
+# ''Recommendation as Classification:  Using Social and Content-based Information in Recommendation'', Chumki Basu, Haym Hirsch, William Cohen.
+#: Early hybrid social-collaborative recommendations.
+# ''The Dynamics of Web-based Social Networks: Membership, Relationships, and Change'', Jennifer Golbeck.
+#: Overview of social networking sites; they claim to have all adjacency lists.
+# ''Tag Recommendations Based on Tensor Dimensionality Reduction'', Panagiotis Symeonidis, Alexandros Nanopoulos, and Yannis Manolopoulos.
+# ''Implicit Feedback for RecommenderSystems'', Douglas W. Oard, Jinmook Kim.
+# ''Characteristic Polynomial Analysis on Matrix Representations of Graphs'', Peng Ren, Richard C. Wilson, and Edwin R. Hancock.
+#: Discrete-time quantum walk.
+#: Ihara zeta function.
+#: Perron-Frobenius operator.
+# ''Mining Graph Evolution Rules'', Michele Berlingerio, Francesco Bonchi, Björn Bringmann, and Aristides Gionis.
+# ''Co-evolution of Social and Afﬁliation Networks'', Elena Zheleva, Hossam Sharara, Lise Getoor.
+#: hybrid recommender.
+# ''Multi-View Clustering for Mining Heterogeneous Social Network Data'', Derek Greene, Pádraig Cunningham.
+#: Multirelational networks, i.e. networks with multiple relationship types, a.k.a. labeled edges.
+#: Social/bibliographic/text hybrid
+# ''A Model of Weighted Network: the Student Relationships in a Class'', Bo Hu, Xin-Yu Jiang, Jun-Feng Ding, Yan-Bo Xie, and Bing-Hong Wang.
+#: Signed network.
+#: An evolutional model based on the multiplication rule.
+

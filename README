@@ -20,6 +20,16 @@ FIRSTNAME Van LASTNAME  [Belgian]
 FIRSTNAME De LASTNAME   [Belgian]
 
 
+Citing conventions
+------------------
+
+* [27|12] reference [12] of paper [27]
+* [27:3] Reference [27] page 3
+* [27:Algorithm 3], etc.:  algorithm 3 from [27]
+* [27(4)] Paper [27] equation (4)
+* [27.2]  Abschnitt 2 aus [27]
+
+
 Abbreviations
 -------------
 
