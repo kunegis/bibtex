@@ -23,11 +23,12 @@ FIRSTNAME De LASTNAME   [Belgian]
 Citing conventions
 ------------------
 
-* [27|12] reference [12] of paper [27]
-* [27:3] Reference [27] page 3
-* [27:Algorithm 3], etc.:  algorithm 3 from [27]
-* [27(4)] Paper [27] equation (4)
-* [27.2]  Abschnitt 2 aus [27]
+* [27]                    Reference [27]
+* [27|12]                 Reference [12] of reference [27]
+* [27:3]                  Page 3 of reference [27] 
+* [27:Algorithm 3], etc.  Algorithm 3 of reference [27]
+* [27(4)]                 Equation (4) of reference [27] 
+* [27.2]                  Section 2 of reference [27]
 
 
 Abbreviations
@@ -62,7 +63,8 @@ Other Rules
 
 * Use `single quotes' when the title of a work contains quotes.
 * All files are in UTF-8.  Sometimes, Bibtex forces us to use Latex
-  encoding, but we avoid that as much as possible.  Use UTF-8.  
+  encoding, but we avoid that as much as possible.  Use UTF-8.  If
+  necessary, we us a Stu rule to transcode the files. 
 * Use title case for title, even if many BibTex styles don't do it.  It
   doesn't hurt for styles that don't need it, and is necessary for
   styles that need it.  Title case is e.g. "The Story of a Donkey".
