@@ -14,9 +14,9 @@ Name Conventions
 
 This is how we write certain types of names: 
 
-LASTNAME, FIRSTNAME von [German]
-van LASTNAME, FIRSTNAME [Dutch]
-FIRSTNAME Van LASTNAME  [Belgian]
+LASTNAME, FIRSTNAME von [German]   
+van LASTNAME, FIRSTNAME [Dutch]    
+FIRSTNAME Van LASTNAME  [Belgian]  
 FIRSTNAME De LASTNAME   [Belgian]
 
 
@@ -57,6 +57,12 @@ Abbreviations follow ISO 4.  Other abbreviations are not used.
 * trans. -- transactions
 * univ. -- university
 
+The symbol '&' is only used in publisher names.  In journal names, we
+use 'and'.  
+
+Publisher names are often abbreviated to a single word, e.g. "Springer",
+"Wiley". 
+
 
 Other Rules
 -----------
@@ -65,8 +71,8 @@ Other Rules
 * All files are in UTF-8.  Sometimes, Bibtex forces us to use Latex
   encoding, but we avoid that as much as possible.  Use UTF-8.  If
   necessary, we us a Stu rule to transcode the files. 
-* Use title case for title, even if many BibTex styles don't do it.  It
-  doesn't hurt for styles that don't need it, and is necessary for
-  styles that need it.  Title case is e.g. "The Story of a Donkey".
-  Words that should always be capitalized in a title are put in braces,
-  e.g., "The Story of a {French} Donkey". 
+* Use title case for titles, even if many BibTex styles map it back to
+  sentence case.  It doesn't hurt for styles that don't need it, and is
+  necessary for styles that do need it.  Title case is e.g. "The Story
+  of a Donkey".  Words that should always be capitalised in a title are
+  put in braces, e.g., "The Story of a {French} Donkey".
