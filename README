@@ -38,6 +38,7 @@ Abbreviations follow ISO 4.  Other abbreviations are not used.
 
 * ann. -- annals
 * ass. -- association
+* bull. -- bulletin
 * commun. -- communications
 * conf. -- conference
 * eur. -- europ*
@@ -50,12 +51,16 @@ Abbreviations follow ISO 4.  Other abbreviations are not used.
 * philos. -- philosoph*
 * phys. -- physic*
 * proc. -- proceedings
+* psychol. -- psycholog*
 * publ. -- publicat*
 * rev. -- review 
 * ser. -- series
 * soc. -- society
 * trans. -- transactions
 * univ. -- university
+
+ISO 4 is only used on journal, conference and publisher names, but not
+in article names. 
 
 The symbol '&' is only used in publisher names.  In journal names, we
 use 'and'.  
