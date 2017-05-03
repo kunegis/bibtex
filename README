@@ -34,30 +34,7 @@ Citing conventions
 Abbreviations
 -------------
 
-Abbreviations follow ISO 4.  Other abbreviations are not used.    
-
-* ann. -- annals
-* ass. -- association
-* bull. -- bulletin
-* commun. -- communications
-* conf. -- conference
-* eur. -- europ*
-* int. -- international
-* j. -- journal 
-* lett. -- letters
-* mag. -- magazine
-* math. -- mathemat*
-* newsl. -- newsletter
-* philos. -- philosoph*
-* phys. -- physic*
-* proc. -- proceedings
-* psychol. -- psycholog*
-* publ. -- publicat*
-* rev. -- review 
-* ser. -- series
-* soc. -- society
-* trans. -- transactions
-* univ. -- university
+We follow ISO 4.  
 
 ISO 4 is only used on journal, conference and publisher names, but not
 in article names. 
@@ -67,6 +44,9 @@ use 'and'.
 
 Publisher names are often abbreviated to a single word, e.g. "Springer",
 "Wiley". 
+
+For proceedings, we omit words such as "of"/"the".  For instance, we
+write "Proc. Int. Conf. on Machine Learning". 
 
 
 Other Rules
