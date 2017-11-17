@@ -1,4 +1,4 @@
-This is an old list, which ir partially redundant with 'ref.bib'.
+This is an old list, which is partially redundant with 'ref.bib'.
 
 # ''Creating a Web Community Chart for Navigating Related Communities'', Masashi Toyoda and Masaru Kitsuregawa
 # ''Community Search Assistant'', Natalie S. Glance
@@ -213,8 +213,7 @@ This is an old list, which ir partially redundant with 'ref.bib'.
 # ''Item-based Collaborative Filtering Recommendation Algorithms'', Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl.
 #: Item-based prediction.  Mentions linear regression for prediction, and that it is useful for very sparse databases.
 # –
-# ''Semi-supervised Learning using Randmized Mincuts'', Avrim Blum, John Lafferty, Mugizi Robert Rwebangira.
-#: Classification by making a MRF model out of nearest-neighbor.
+# –
 # ''Matrix Computations'', Gene H. Golub, Charles F. van Loan, third edition. (book) (MA-Bibliothek) (1996)
 #: Matrix data structures and algorithms.
 # ''Nineteen Dubious Ways to Compute the Exponential of a Matrix, Twenty-Five Years Later'', Cleve Moler, Charles van Loan. (2003)
